@@ -69,6 +69,6 @@ def genpassword():
     return render_template('home.html',datetoday2=datetoday2,generatedpassword=password)
 
 
-#### Our main function which runs the Random Password Generator Flask App
-if __name__ == '__main__':
-    app.run(debug=True)
+# #### Our main function which runs the Random Password Generator Flask App
+# if __name__ == '__main__':
+#     app.run(debug=True)
